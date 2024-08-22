@@ -1,0 +1,6 @@
+@KafkaWithDocker_HostAddress = http://localhost:5281
+
+GET {{KafkaWithDocker_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
